@@ -26,7 +26,7 @@ namespace CompAndDel
             }
            // IPicture picture = provider.SavePicture("PathToNewImage.jpg");
 
-           IFilter persistFilter = new 
+           IFilter persistFilter = new FilterGreyscale();
 
         }
     }
