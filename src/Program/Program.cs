@@ -23,7 +23,7 @@ namespace CompAndDel
 
             provider.SavePicture(picture, @"beermodificado.jpg");
 
-            }
+            
            // IPicture picture = provider.SavePicture("PathToNewImage.jpg");
 
            IFilter persistFilter = new FilterGreyscale();
